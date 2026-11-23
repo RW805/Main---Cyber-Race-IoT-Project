@@ -1,0 +1,10 @@
+{
+  "host": "sql.freedb.tech",
+  "port": 3306,
+  "database": "",
+  "user": "u_tEpx7E",
+  "password": "eKad6Pk8BaYv",
+  "table": "scoreboard",
+  "ssl": false,
+  "timeout_secs": 5
+}
