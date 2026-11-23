@@ -948,7 +948,7 @@ def run_summary(screen, clock, player_name, results, scoreboard):
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((WIDTH, HEIGHT))
+    screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN | pygame.SCALED)
     pygame.display.set_caption("CyberRace")
     clock = pygame.time.Clock()
     settings = settings_mod.load()
